@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.container-employee {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+}
+.employee-bio {
+  font-size: 13px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.employee-name {
+  margin: 10px;
+  display: block;
+  cursor: pointer;
+}
+

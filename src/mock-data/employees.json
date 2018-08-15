@@ -1,0 +1,21 @@
+{
+    "employees": [
+    {
+      "id": 1,
+      "name":"Steven Wang",
+      "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",     
+      "opened": false
+    }, {
+      "id":  2,
+      "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "name":"Mike Chen",
+      "opened": false
+    }, {
+      "id":  3,
+
+      "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "name":"Sherry Hua",
+      "opened": false
+    }
+  ]
+}
