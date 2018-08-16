@@ -26,7 +26,8 @@ module.exports = {
         "no-trailing-spaces": 2,
         "no-multiple-empty-lines": 2,
         "keyword-spacing": 2,       
-        "spaced-comment": 2,       
+        "spaced-comment": 2,
+        "indent": ["error", 2],       
     },
     "parser": "babel-eslint",
     "parserOptions": {
