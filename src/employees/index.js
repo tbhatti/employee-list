@@ -14,7 +14,7 @@ class Employee extends React.Component {
 			<div className="container-main-employees">
 				{ this.state.employeesList.map(function(employee, index) {
 					return <div className="container-employee" key={index} >
-						<label className="employee-name" onClick={() => this.employeeNameClickEvent(employee, index)}>{employee.name}</label>
+						<label className="employee-name" onClick={() => this.toggleEmployeeBio(employee, index)}>{employee.name}</label>
 						{employee.opened ?
 							<label className="employee-bio" onClick={() => alert("Name:"+employee.name + " \nBio: " + employee.bio)}>{employee.bio}</label>
 						: null}
@@ -26,7 +26,7 @@ class Employee extends React.Component {
 
 	/** click Handler for Employee Name Label*/
 
-	employeeNameClickEvent (employee, index) {
+	toggleEmployeeBio (employee, index) {
 		this.collapseAllBios(index)
 		const employees = this.state.employeesList
 		employee.opened = !employee.opened

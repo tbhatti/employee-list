@@ -15,7 +15,7 @@ describe('Test divs inside application', function() {
 
 
   it('Should hide all bios, except of employeesList[1]', () => {
-    instance.employeeNameClickEvent(instance.state.employeesList[1], 1)
+    instance.toggleEmployeeBio(instance.state.employeesList[1], 1)
     expect(instance.state.employeesList[0].opened).toBe(false)
     expect(instance.state.employeesList[1].opened).toBe(true)
     expect(instance.state.employeesList[2].opened).toBe(false)
